@@ -5,8 +5,7 @@ type DatarizeLoggerProps = {
   style: ViewStyle;
 };
 
-export const DatarizeLoggerViewManager = requireNativeComponent<DatarizeLoggerProps>(
-'DatarizeLoggerView'
-);
+export const DatarizeLoggerViewManager =
+  requireNativeComponent<DatarizeLoggerProps>('DatarizeLoggerView');
 
 export default DatarizeLoggerViewManager;
